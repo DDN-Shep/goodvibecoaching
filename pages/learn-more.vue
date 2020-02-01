@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="container">
     <div class="row">
       <div class="one-half column">
         <div class="portait" />
