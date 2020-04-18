@@ -7,7 +7,7 @@
       <div class="one-half column">
         <div class="content">
           <nuxt-link to="/" class="button float-right">
-            <i class="fas fa-long-arrow-alt-left fa-fw"></i> Back
+            <i class="fas fa-long-arrow-alt-left fa-fw" /> Back
           </nuxt-link>
           <p><b>Imagine a new version of You.</b></p>
 
@@ -32,7 +32,7 @@ export default {
 
 <style lang="scss" scoped>
 .portait {
-  background-image: url('~assets/images/photo-1.jpg');
+  background-image: url('/images/photo-1.jpg');
 }
 .content {
   vertical-align: top;

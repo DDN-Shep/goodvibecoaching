@@ -7,10 +7,10 @@
       <div class="one-half column">
         <div class="content" style="position: relative;">
 
-          <div class="calendly-inline-widget" data-url="https://calendly.com/kristinasheppard"></div>
+          <div class="calendly-inline-widget" data-url="https://calendly.com/kristinasheppard" />
 
           <nuxt-link to="/" class="button" style="position: absolute; bottom: 0; right: 1em; z-index: 9999;">
-            <i class="fas fa-long-arrow-alt-left fa-fw"></i> Back
+            <i class="fas fa-long-arrow-alt-left fa-fw" /> Back
           </nuxt-link>
 
         </div>
@@ -30,7 +30,7 @@ export default {
 
 <style lang="scss" scoped>
 .portait {
-  background-image: url('~assets/images/photo-2.jpg');
+  background-image: url('/images/photo-2.jpg');
 }
 .content {
   vertical-align: top;

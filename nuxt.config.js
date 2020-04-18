@@ -17,7 +17,14 @@ export default {
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css' }
     ],
     script: [
-      { src: 'https://assets.calendly.com/assets/external/widget.js' }
+      { src: '/js/jquery.min.js', body: true },
+      { src: '/js/jquery.dropotron.min.js', body: true },
+      { src: '/js/jquery.poptrox.min.js', body: true },
+      { src: '/js/breakpoints.min.js', body: true },
+      { src: '/js/browser.min.js', body: true },
+      { src: '/js/utils.js', body: true },
+      { src: '/js/stuff.js', body: true, defer: true },
+      { src: 'https://assets.calendly.com/assets/external/widget.js', body: true, defer: true  }
     ]
   },
   /*
